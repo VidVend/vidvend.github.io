@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>VidVend - דף ראשי</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #fff;
+    direction: rtl;
+    text-align: center;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5em;
+  }
+  nav a {
+    margin: 0 15px;
+    color: #4285F4;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  button {
+    background-color: #4285F4;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1rem;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  button:hover {
+    background-color: #357AE8;
+  }
+</style>
+</head>
+<body>
+  <h1>VidVend</h1>
+  <nav>
+    <a href="index.html">דף הבית</a>
+    <a href="channel.html">ערוץ</a>
+    <a href="shop.html">חנות</a>
+  </nav>
+  <p>רשת סרטונים ושופ פרסונלית</p>
+  <button onclick="alert('כפתור התחברות בגוגל - כאן תתחבר!')">התחבר עם Google</button>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>VidVend - ערוץ</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #fff;
+    direction: rtl;
+    padding: 20px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+  }
+  nav a {
+    margin: 0 15px;
+    color: #4285F4;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .video {
+    background: #222;
+    margin: 20px auto;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    font-size: 1.2rem;
+    border-radius: 10px;
+  }
+</style>
+</head>
+<body>
+  <h1>ערוץ VidVend</h1>
+  <nav>
+    <a href="index.html">דף הבית</a>
+    <a href="channel.html">ערוץ</a>
+    <a href="shop.html">חנות</a>
+  </nav>
+
+  <div class="video">סרטון לדוגמה 1</div>
+  <div class="video">סרטון לדוגמה 2</div>
+  <div class="video">סרטון לדוגמה 3</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>VidVend - חנות</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #fff;
+    direction: rtl;
+    padding: 20px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+  }
+  nav a {
+    margin: 0 15px;
+    color: #4285F4;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .product {
+    background: #222;
+    margin: 15px auto;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+  }
+  .product h3 {
+    margin: 0 0 10px 0;
+  }
+  .product button {
+    background-color: #4285F4;
+    border: none;
+    padding: 0.5em 1em;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .product button:hover {
+    background-color: #357AE8;
+  }
+</style>
+</head>
+<body>
+  <h1>חנות VidVend</h1>
+  <nav>
+    <a href="index.html">דף הבית</a>
+    <a href="channel.html">ערוץ</a>
+    <a href="shop.html">חנות</a>
+  </nav>
+
+  <div class="product">
+    <h3>מוצר 1</h3>
+    <p>תיאור קצר של המוצר.</p>
+    <button onclick="alert('מוצר 1 נוסף לעגלה!')">קנה עכשיו</button>
+  </div>
+
+  <div class="product">
+    <h3>מוצר 2</h3>
+    <p>תיאור קצר של המוצר.</p>
+    <button onclick="alert('מוצר 2 נוסף לעגלה!')">קנה עכשיו</button>
+  </div>
+
+</body>
+</html>
